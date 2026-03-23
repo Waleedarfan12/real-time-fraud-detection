@@ -1,0 +1,21 @@
+# Kafka
+kafka-python==2.1.0
+
+# PostgreSQL
+psycopg2-binary==2.9.8
+
+# Data manipulation & ML
+pandas==2.1.0
+scikit-learn==1.3.0
+numpy==1.26.5
+
+# Dashboard
+streamlit==1.28.0
+streamlit-autorefresh==0.0.4
+altair==5.0.1
+
+# Email
+yagmail==0.15.280
+
+# Optional (if using dotenv for secrets)
+python-dotenv==1.1.1

@@ -17,27 +17,24 @@ This project is a **full-fledged real-time fraud detection system** built using 
 
 ## 📁 Project Structure
 
-
-fraud-data-detection-platform/
-│
-├─ kafka/                  # Kafka docker-compose & configs
-├─ data_simulator/         # Transaction generator and consumer
-│  ├─ producer.py
-│  └─ consumer.py          # ML fraud detection + email alerts
-├─ alerts/                 # Email alert system
-│  └─ alert.py
-├─ ml/                     # Machine Learning scripts & models
-│  ├─ train_model.py       # Train ML model
-│  ├─ model.pkl            # Saved ML model
-│  └─ encoders.pkl         # Saved LabelEncoders
-├─ dashboard/              # Streamlit dashboard
-│  └─ app.py
-├─ data_quality/           # Data quality checks
-│  ├─ checks.py
-│  └─ inavalidator.py
-├─ .venv/                  # Virtual environment
-└─ requirements.txt        # Required packages
-
+- **fraud-data-detection-platform/**
+  - **kafka/** - Kafka docker-compose & configs
+  - **data_simulator/** - Transaction generator and consumer
+    - producer.py
+    - consumer.py - ML fraud detection + email alerts
+  - **alerts/** - Email alert system
+    - alert.py
+  - **ml/** - Machine Learning scripts & models
+    - train_model.py - Train ML model
+    - model.pkl - Saved ML model
+    - encoders.pkl - Saved LabelEncoders
+  - **dashboard/** - Streamlit dashboard
+    - app.py
+  - **data_quality/** - Data quality checks
+    - checks.py
+    - invalidator.py
+  - **.venv/** - Virtual environment
+  - requirements.txt - Required packages
 
 
 ---

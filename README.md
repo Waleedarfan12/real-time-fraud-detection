@@ -92,63 +92,46 @@ fraud-data-detection-platform/
 └── README.md
 ---
 
-🛠️ Tech Stack
-Technology	Purpose
-Apache Kafka	Real-time streaming
-scikit-learn	ML fraud detection
-PostgreSQL	Data persistence
-Streamlit	Live dashboard
-SMTP (Gmail)	Email alerts
-Docker	Containerization
-Python 3.10+	Core language
+## 🛠️ Tech Stack
 
-🤖 ML Model Details
-Random Forest Classifier
+| Technology | Purpose |
+|------------|---------|
+| Apache Kafka | Real-time streaming |
+| scikit-learn | ML fraud detection |
+| PostgreSQL | Data persistence |
+| Streamlit | Live dashboard |
+| SMTP (Gmail) | Email alerts |
+| Docker | Containerization |
+| Python 3.10+ | Core language |
 
-Metric	Score
-🎯 Accuracy	92%
-📌 Precision	89%
-🔍 Recall	94%
-⚖️ F1-Score	91%
-Features: user_id · amount · transaction_type · location · device
+## 🤖 ML Model Details
 
-📊 Dashboard Preview
-KPI Metrics
-Metric	Value	Trend
-💰 Total Transactions	1,234	+12%
-🚨 Fraud Detected	45	+5%
-📊 Fraud Rate	3.6%	-0.4%
-⭐ Average Amount	$127.50	+$15
-Charts Included
-Transaction Amount Distribution (Histogram)
+| Metric | Score |
+|--------|-------|
+| 🎯 Accuracy | 92% |
+| 📌 Precision | 89% |
+| 🔍 Recall | 94% |
+| ⚖️ F1-Score | 91% |
 
-Transactions by Type (Bar chart)
+## 📊 Dashboard Preview
 
-Live Table
-Shows last 10 transactions
+| Metric | Value | Trend |
+|--------|-------|-------|
+| 💰 Total Transactions | 1,234 | +12% |
+| 🚨 Fraud Detected | 45 | +5% |
+| 📊 Fraud Rate | 3.6% | -0.4% |
+| ⭐ Average Amount | $127.50 | +$15 |
 
-Fraud rows highlighted in RED
+## 📧 Email Alert Example
 
-Auto-refresh
-Every 2 seconds
-
-📧 Email Alert Example
-Subject: 🚨 FRAUD ALERT DETECTED!
-
-Transaction Details:
-
-Field	Value
-User ID	12345
-Amount	$2,500
-Type	Transfer
-Location	London, UK
-Device	Desktop
-Time	2024-01-15 10:30:04
-Status: ⚠️ This transaction has been flagged as FRAUD
-
-Action: 🔍 Please investigate immediately
-
----
+| Field | Value |
+|-------|-------|
+| User ID | 12345 |
+| Amount | $2,500 |
+| Type | Transfer |
+| Location | London, UK |
+| Device | Desktop |
+| Time | 2024-01-15 10:30:04 |
 
 ## 🚀 Quick Start Guide
 

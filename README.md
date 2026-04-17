@@ -92,79 +92,61 @@ fraud-data-detection-platform/
 └── README.md
 ---
 
-## 🛠️ Tech Stack
+🛠️ Tech Stack
+Technology	Purpose
+Apache Kafka	Real-time streaming
+scikit-learn	ML fraud detection
+PostgreSQL	Data persistence
+Streamlit	Live dashboard
+SMTP (Gmail)	Email alerts
+Docker	Containerization
+Python 3.10+	Core language
 
-| Layer | Technology |
-|-------|------------|
-| Streaming | Apache Kafka |
-| ML Model | scikit-learn (Random Forest) |
-| Database | PostgreSQL |
-| Dashboard | Streamlit |
-| Alerts | SMTP (Gmail) |
-| Container | Docker |
-| Language | Python 3.10+ |
+🤖 ML Model Details
+Random Forest Classifier
 
----
+Metric	Score
+🎯 Accuracy	92%
+📌 Precision	89%
+🔍 Recall	94%
+⚖️ F1-Score	91%
+Features: user_id · amount · transaction_type · location · device
 
-## 🤖 ML Model Details
+📊 Dashboard Preview
+KPI Metrics
+Metric	Value	Trend
+💰 Total Transactions	1,234	+12%
+🚨 Fraud Detected	45	+5%
+📊 Fraud Rate	3.6%	-0.4%
+⭐ Average Amount	$127.50	+$15
+Charts Included
+Transaction Amount Distribution (Histogram)
 
-**Random Forest Classifier**
+Transactions by Type (Bar chart)
 
-| Metric | Score |
-|--------|-------|
-| Accuracy | 92% |
-| Precision | 89% |
-| Recall | 94% |
-| F1-Score | 91% |
+Live Table
+Shows last 10 transactions
 
-**Features used:** user_id, amount, transaction_type, location, device
+Fraud rows highlighted in RED
 
----
+Auto-refresh
+Every 2 seconds
 
-## 📊 Dashboard Preview
-
-**KPI Cards:**
-
-| Metric | Value |
-|--------|-------|
-| 💰 Total Transactions | 1,234 |
-| 🚨 Fraud Detected | 45 |
-| 📊 Fraud Rate | 3.6% |
-| ⭐ Avg Amount | $127.50 |
-
-**Charts:**
-- Transaction Amount Distribution (Histogram)
-- Transactions by Type (Bar chart)
-
-**Live Table:**
-- Shows last 10 transactions
-- Fraud rows highlighted in RED
-
-**Auto-refresh:** Every 2 seconds
-
----
-
-## 📧 Email Alert Example
+📧 Email Alert Example
 Subject: 🚨 FRAUD ALERT DETECTED!
 
 Transaction Details:
 
-User ID: 12345
+Field	Value
+User ID	12345
+Amount	$2,500
+Type	Transfer
+Location	London, UK
+Device	Desktop
+Time	2024-01-15 10:30:04
+Status: ⚠️ This transaction has been flagged as FRAUD
 
-Amount: $2,500
-
-Type: Transfer
-
-Location: London, UK
-
-Device: Desktop
-
-Time: 2024-01-15 10:30:04
-
-⚠️ This transaction has been flagged as FRAUD
-🔍 Please investigate immediately
-
-text
+Action: 🔍 Please investigate immediately
 
 ---
 

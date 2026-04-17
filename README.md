@@ -58,56 +58,38 @@ Step 5 Step 6
 Email → Streamlit
 Alerts Dashboard
 
-text
-
 ---
-📁 Project Structure
+## 📁 Project Structure
+
+```
 fraud-data-detection-platform/
-
-kafka/
-
-docker-compose.yml
-
-data_simulator/
-
-producer.py
-
-consumer.py
-
-alerts/
-
-alert.py
-
-ml/
-
-train_model.py
-
-model.pkl
-
-encoders.pkl
-
-dashboard/
-
-app.py
-
-data_quality/
-
-checks.py
-
-invalidator.py
-
-.venv/
-
-requirements.txt
-
-docker-compose.yml
-
-README.md
-
-
-
-text
-
+│
+├── kafka/
+│   └── docker-compose.yml
+│
+├── data_simulator/
+│   ├── producer.py
+│   └── consumer.py
+│
+├── alerts/
+│   └── alert.py
+│
+├── ml/
+│   ├── train_model.py
+│   ├── model.pkl
+│   └── encoders.pkl
+│
+├── dashboard/
+│   └── app.py
+│
+├── data_quality/
+│   ├── checks.py
+│   └── invalidator.py
+│
+├── .venv/
+├── requirements.txt
+├── docker-compose.yml
+└── README.md
 ---
 
 ## 🛠️ Tech Stack
